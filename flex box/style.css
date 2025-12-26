@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    height: 1200px;
+    width: 1200px;
+    background-color: aqua;
+    border: 1px solid black;
+    flex-direction: row;
+    flex-wrap:wrap;
+    /* justify-content: center; */
+    align-items: center;
+    align-content: space-around ;
+    row-gap:10px;
+    column-gap: 10px;
+}
+
+.item{
+    height: 200px ;
+    width: 200px;
+    background-color: white ;
+    border: solid black;
+    flex: row;
+    flex-grow:1;
+
+}
+
+.item3{
+    order: -1;
+    flex-shrink: 3;
+}

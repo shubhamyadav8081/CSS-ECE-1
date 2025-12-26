@@ -1,0 +1,13 @@
+h1{
+    background-color: lightblue;
+    padding-left: 20px;
+}
+p{
+    background-color: lightgreen;
+    padding-left: 10px;
+}
+.box{
+    border: 2px  solid black;
+    display: inline-block;
+    padding-left: 10px;
+}
